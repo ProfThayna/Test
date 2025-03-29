@@ -1,0 +1,39 @@
+# 🧪 Teste Automatizado com Playwright - aNotepad.com
+
+Este projeto contém um teste automatizado utilizando [Playwright](https://playwright.dev/) em Python, com `pytest`, para criar uma nota simples no site [aNotepad.com](https://pt.anotepad.com).
+
+## ✅ Funcionalidade
+
+O teste automatizado realiza os seguintes passos:
+
+1. Acessa o site [https://pt.anotepad.com](https://pt.anotepad.com).
+2. Preenche o título e o corpo de uma nova nota.
+3. Clica no botão "Salvar".
+4. Verifica se a nota foi salva com sucesso, validando a URL.
+
+## 📁 Estrutura do Projeto
+
+## ⚙️ Pré-requisitos
+
+- Python 3.7 ou superior instalado.
+- [Playwright](https://playwright.dev/python/docs/intro) instalado.
+- `pytest` instalado.
+
+## 🚀 Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd <NOME_DO_DIRETORIO>
+   ```
+
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Execute o teste:
+   ```bash
+   pytest
+   ```
+
